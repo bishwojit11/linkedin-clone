@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #EFF2F5;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    margin: 8% 10%;
+    align-items: center;
+    gap:40px;
+    
+    
+}
+.left-container{
+    flex: 1;
+    
+    padding: 0px 60px;
+}
+.logo{
+    width: 300px;
+}
+.left-text{
+    font-size: 28px;
+    padding-left: 25px;
+}
+.right-container{
+    flex:1;
+}
+.log-in-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
+.input-field{
+    width: 85%;
+    padding: 14px 16px;
+    margin: 10px 14px;
+    border-radius: 5px;
+    border: 1px solid #DCDFE2;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn{
+    width: 90%;
+    padding: 14px 16px;
+    margin: 10px 14px;
+    background-color: #1977F2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.btn-create{
+    background-color: #35A420 !important;
+    padding: 14px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin: 12px 0px
+}
+.hr-line{
+    width: 90%;
+    margin: 10px 0px;
+
+}
+.forget-pass{
+    text-decoration: none;
+    text-align: center;
+    color: #1977F2;
+}
